@@ -1,0 +1,1 @@
+# Analise_de_acoes_com_bibliotecas_python
