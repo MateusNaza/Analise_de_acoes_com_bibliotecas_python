@@ -11,7 +11,7 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 Utilizei para rodar os códigos o ambiente Databricks e as Libs que usei foram:
 - Pandas
 - Matplotlib
-- Seasborn
+- Seaborn
 
 
 ## Extração
