@@ -44,7 +44,7 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/9a9a8a30-8d20-4726-a136-708bf02e8144)
 
-## Análise
+## Análises
 
 ## Questões Gerais dos dados
 ### 1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
