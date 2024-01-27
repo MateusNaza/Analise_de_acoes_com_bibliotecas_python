@@ -6,12 +6,12 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 - <a href="#Ferramentas">Ferramentas</a>  
 - <a href="#Extração">Extração dos Dados</a> 
 - <a href="#Limpeza">Limpeza de Dados</a>  
-
+- <a href="#Análises">Análises e Gerações de gráficos</a>  
 ## Ferramentas
 Utilizei para rodar os códigos o ambiente Databricks e as Libs que usei foram:
 - Pandas
 - Matplotlib
-- Seasborn
+- Seaborn
 
 
 ## Extração
@@ -38,3 +38,20 @@ Tendo em vista que utilizarei futuramente análises com o campo 'Change', verifi
 Essas colunas continham valores em inglês, para facilitar a análise decidi mudar os valores para português.
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/6e8bbae8-3eb7-4e38-9f61-23d889fce89e)
+
+### Coluna Stock
+Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa análise essa classe não é bem vinda e pode sujar os dados analisados, então removi todos esses ativos. Eles são identificados por uma letra F ao fim do ticker, sabendo disso usei esse código para excluir esses ativos:
+
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/9a9a8a30-8d20-4726-a136-708bf02e8144)
+
+## Análises
+
+## Questões Gerais dos dados
+### 1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
+
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
+
+## Questões específicas para cada dia 
+### 1. Qual a média de negociação dentro de cada setor?
+
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
