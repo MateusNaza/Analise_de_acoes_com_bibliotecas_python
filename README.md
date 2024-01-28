@@ -11,7 +11,10 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
       - <a href="#1.1">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
       - <a href="#1.2">2. Qual a variação percentual dos papéis por tipo?</a>
       - <a href="#1.3">3. Qual a média de negociação dentro de cada setor?</a>
-    - <a href="#2.0">Questões Específicas</a> 
+      - <a href="#1.4">4. Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?</a>
+    - <a href="#2.0">Questões Específicas</a>
+- <a href="#Próximos_passos">Próximos Passos</a>
+    
 ## Ferramentas
 Utilizei para rodar os códigos o ambiente Databricks e as Libs que usei foram:
 - Pandas
@@ -65,4 +68,24 @@ Aqui é possivel verificar os 'outliers' de variação percentual para cada tipo
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
 
+### 1.4 Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?
+Após responder essa pergunta verifiquei que os dados desses campos contém valores muito espaçados e concentrados em faixas específicas.    
+Para tratar essas questões estou estudando algumas formas de segmentar esses dados, sendo elas:    
+- **Utilização de Percentis**    
+- **Transformação Logarítmica**    
+    
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/4d106fd7-32ea-4824-8cf0-76faed941b6d)
+
 ## 2.0 Questões específicas de cada tipo de papel
+
+## Próximos_passos
+Pretendo elaborar questões específicas de papeis do tipo 'Ação', pois é o que mais me interessa dentro dessa análise. Porém, para prosseguir com as análises vou precisar tratar os campos 'volume', 'close' e 'market_cap'.    
+Já estou estudando as maneiras como posso tratar desses campos e provavelmente esse será meu próximo passo.    
+
+**Questões que ainda quero responder:**    
+- Existe alguma relação entre o preço da ação ('close') e o volume negociado ('volume')?
+- Quais foram as ações que mais subiram no dia? E as que mais caíram?
+- Quais foram os setores que mais subiram no dia? E os que mais caíram?
+- Existe alguma correlação entre uma determinada ação e seu setor?
+- Existe alguma correlação entre setores?
+- Quanto o mercado fracionado impacta quando comparado ao mercado tradicional? (ainda vou planejar em qual indicador posso medir) 
