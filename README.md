@@ -7,8 +7,8 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 - <a href="#Extração">Extração dos Dados</a> 
 - <a href="#Limpeza">Limpeza de Dados</a>  
 - <a href="#Análises">Análises e Gerações de gráficos</a>
-    - <a href="#1.0_Questões_Gerais_dos_dados">Questões Gerais</a>
-      - <a href="#1.1_Quantos_papeis_tem_por_cada_setor_e_tipo_de_papel?_(Ação,_BDR,_Fundo)">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
+    - <a href="#1.0">Questões Gerais</a>
+      - <a href="#1.1">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
       - <a href="#1.2">2. Qual a variação percentual dos papéis por tipo?</a>
       - <a href="#1.3">3. Qual a média de negociação dentro de cada setor?</a>
     - <a href="#2.0">Questões Específicas</a> 
@@ -51,8 +51,10 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 
 ## Análises
 
-## 1.0_Questões_Gerais_dos_dados
-### 1.1_Quantos_papeis_tem_por_cada_setor_e_tipo_de_papel?_(Ação,_BDR,_Fundo)
+## 1.0
+Questões Gerais dos dados
+### 1.1 
+Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
 
