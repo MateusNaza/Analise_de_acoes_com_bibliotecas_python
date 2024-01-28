@@ -6,7 +6,12 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 - <a href="#Ferramentas">Ferramentas</a>  
 - <a href="#Extração">Extração dos Dados</a> 
 - <a href="#Limpeza">Limpeza de Dados</a>  
-- <a href="#Análises">Análises e Gerações de gráficos</a>  
+- <a href="#Análises">Análises e Gerações de gráficos</a>
+    - <a href="#1.0">Questões Gerais</a>
+      - <a href="#1.1">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
+      - <a href="#1.2">2. Qual a variação percentual dos papéis por tipo?</a>
+      - <a href="#1.3">3. Qual a média de negociação dentro de cada setor?</a>
+    - <a href="#2.0">Questões Específicas</a> 
 ## Ferramentas
 Utilizei para rodar os códigos o ambiente Databricks e as Libs que usei foram:
 - Pandas
@@ -46,18 +51,18 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 
 ## Análises
 
-## Questões Gerais dos dados
-### 1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
+## 1.0 Questões Gerais dos dados
+### 1.1 Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
 
-### 2. Qual a variação percentual dos papéis por tipo?
+### 2.1 Qual a variação percentual dos papéis por tipo?
 Aqui é possivel verificar os 'outliers' de variação percentual para cada tipo de papel. Para garantir uma boa vizualização, fixei o range de visualização para 40 pontos percentuais (de -20% a 20%), para papéis que utrapassem esse valor percentual será realizado outras análises abaixo.
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/6403adb1-721c-4b25-a426-d1fea9e51c2d)
 
-### 3. Qual a média de negociação dentro de cada setor?
+### 3.1 Qual a média de negociação dentro de cada setor?
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
 
-## Questões específicas de cada tipo de papel
+## 2.0 Questões específicas de cada tipo de papel
