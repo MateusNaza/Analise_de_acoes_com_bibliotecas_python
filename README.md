@@ -9,9 +9,10 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 - <a href="#Análises">Análises e Gerações de gráficos</a>
     - <a href="#1.0">Questões Gerais</a>
       - <a href="#1.1">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
-      - <a href="#1.2">2. Qual a variação percentual dos papéis por tipo?</a>
-      - <a href="#1.3">3. Qual a média de negociação dentro de cada setor?</a>
-      - <a href="#1.4">4. Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?</a>
+      - <a href="#1.2">2- Qual o tipo de papel é mais negociado levando em conta a proporção da quantidade de papeis?</a>
+      - <a href="#1.3">3. Qual a variação percentual dos papéis por tipo?</a>
+      - <a href="#1.4">4. Qual a média de negociação dentro de cada setor?</a>
+      - <a href="#1.5">5. Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?</a>
     - <a href="#2.0">Questões Específicas</a>
 - <a href="#Próximos_passos">Próximos Passos</a>
     
@@ -59,16 +60,22 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
 
-### 1.2 Qual a variação percentual dos papéis por tipo?
+### 1.2 Qual o tipo de papel é mais negociado levando em conta a proporção da quantidade de papeis?
+Com esta análise é possível observar que os 3 tipos de papeis tem uma quantidade razoavelmente próxima de papeis disponíveis no mercado, porém, quando se trata de volume negociado as ações se destacam totalmente, sendo os papeis mais negociados da bolsa.
+
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/735d4ddd-035e-400d-b82b-d5da0f39ca7e)
+
+
+### 1.3 Qual a variação percentual dos papéis por tipo?
 Aqui é possivel verificar os 'outliers' de variação percentual para cada tipo de papel. Para garantir uma boa vizualização, fixei o range de visualização para 40 pontos percentuais (de -20% a 20%), para papéis que utrapassem esse valor percentual será realizado outras análises abaixo.
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/6403adb1-721c-4b25-a426-d1fea9e51c2d)
 
-### 1.3 Qual a média de negociação dentro de cada setor?
+### 1.4 Qual a média de negociação dentro de cada setor?
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
 
-### 1.4 Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?
+### 1.5 Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?
 Após responder essa pergunta verifiquei que os dados desses campos contém valores muito espaçados e concentrados em faixas específicas.    
 Para tratar essas questões estou estudando algumas formas de segmentar esses dados, sendo elas:    
 - **Utilização de Percentis**    
