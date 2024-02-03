@@ -77,7 +77,7 @@ Essa análise é interessante pois de forma rápida é possivel observar dentro 
 ### 1.4 Qual a média de negociação dentro de cada setor?
 Com esta análise é possivel observar em ordem quais setores estão sendo mais negociados no dia.
 
-![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/bd383213-b0b9-4ed1-908d-bd6c65d4c4f0)
 
 ### 1.5 Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?
 Após responder essa pergunta verifiquei que os dados desses campos contém valores muito espaçados e concentrados em faixas específicas.    
