@@ -57,6 +57,7 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 
 ## 1.0 Questões Gerais dos dados
 ### 1.1 Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
+Atravéz dessa análise é possivel visualizar como estão distribuidos os papéis dentro de cada setor, trazendo tanto a quantidade de papéis em cada setor, como também a proporção dos tipos (Ações, Fundos e BDR's).
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
 
@@ -69,9 +70,12 @@ Com esta análise é possível observar que os 3 tipos de papeis tem uma quantid
 ### 1.3 Qual a variação percentual dos papéis por tipo?
 Aqui é possivel verificar os 'outliers' de variação percentual para cada tipo de papel. Para garantir uma boa vizualização, fixei o range de visualização para 40 pontos percentuais (de -20% a 20%), para papéis que utrapassem esse valor percentual será realizado outras análises abaixo.
 
+Essa análise é interessante pois de forma rápida é possivel observar dentro de cada tipo de papel se tem alguma tendencia definida (Alta ou Baixa).
+
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/6403adb1-721c-4b25-a426-d1fea9e51c2d)
 
 ### 1.4 Qual a média de negociação dentro de cada setor?
+Com esta análise é possivel observar em ordem quais setores estão sendo mais negociados no dia.
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/34e1e11c-47b6-4018-9192-fe9ab6844b7f)
 
