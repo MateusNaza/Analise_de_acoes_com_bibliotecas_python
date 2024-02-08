@@ -87,7 +87,17 @@ Para tratar essas questões estou estudando algumas formas de segmentar esses da
     
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/4d106fd7-32ea-4824-8cf0-76faed941b6d)
 
-## 2.0 Questões específicas de cada tipo de papel
+## 2.0 Questões específicas de ações
+Decidi me aprofundar mais no tipo de papel **Ação** pois como é possivel observar nas análises anteriores este é o tipo de papel mais negociado.
+
+### 2.1 O volume diário está concentrado em quais faixas de valores?
+Para responder a esta questão, precisei tratar o campo volume. Decidi dividí-lo em faixas de valores estratégicos para distribuir uniformemente 
+os dados.
+
+Como os dados diários variam entre as faixas, atravéz deste gráfico é possivel verificar se está sendo um dia com muito volume de negociação ou com pouco 
+e também verificar em quais faixas de volume está a maior concentração de ações.
+
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/80a90d1a-788d-4711-a5bf-e53a6abc04e4)
 
 ## Próximos_passos
 Pretendo elaborar questões específicas de papeis do tipo 'Ação', pois é o que mais me interessa dentro dessa análise. Porém, para prosseguir com as análises vou precisar tratar os campos 'volume', 'close' e 'market_cap'.    
