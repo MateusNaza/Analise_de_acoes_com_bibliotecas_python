@@ -9,12 +9,13 @@ O projeto ainda está em andamento, e conforme for progredindo irei atualizando 
 - <a href="#Análises">Análises e Gerações de gráficos</a>
     - <a href="#1.0">Questões Gerais</a>
       - <a href="#1.1">1. Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)</a>
-      - <a href="#1.2">2- Qual o tipo de papel é mais negociado levando em conta a proporção da quantidade de papeis?</a>
+      - <a href="#1.2">2. Qual o tipo de papel é mais negociado levando em conta a proporção da quantidade de papeis?</a>
       - <a href="#1.3">3. Qual a variação percentual dos papéis por tipo?</a>
       - <a href="#1.4">4. Qual a média de negociação dentro de cada setor?</a>
       - <a href="#1.5">5. Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?</a>
+        
     - <a href="#2.0">Questões específicas de ações</a>
-      - <a href="#1.5">1 O volume diário está concentrado em quais faixas de valores?</a>
+      - <a href="#1.5">1. O volume diário está concentrado em quais faixas de valores?</a>
 
 - <a href="#Próximos_passos">Próximos Passos</a>
     
