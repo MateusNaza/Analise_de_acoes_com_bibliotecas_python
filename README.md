@@ -62,9 +62,9 @@ Existe uma classe de ativos que são vendidos em forma fracionada, no caso dessa
 ### 1.1 Quantos papeis tem por cada setor e tipo de papel? (Ação, BDR, Fundo)
 Atravéz dessa análise é possivel visualizar como estão distribuidos os papéis dentro de cada setor, trazendo tanto a quantidade de papéis em cada setor, como também a proporção dos tipos (Ações, Fundos e BDR's).
 
-![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/5043830e-e3be-41ff-9e78-6909a74e0cdb)
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/9ada25e6-538a-40d9-b0fd-6260dbe4e41f)
 
-### 1.2 Qual o tipo de papel é mais negociado levando em conta a proporção da quantidade de papeis?
+### 1.2 Qual a distribuição dos papeis por tipo e seus respectivos volumes?
 Com esta análise é possível observar que os 3 tipos de papeis tem uma quantidade razoavelmente próxima de papeis disponíveis no mercado, porém, quando se trata de volume negociado as ações se destacam totalmente, sendo os papeis mais negociados da bolsa.
 
 ![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/735d4ddd-035e-400d-b82b-d5da0f39ca7e)
@@ -80,7 +80,7 @@ Essa análise é interessante pois de forma rápida é possivel observar dentro 
 ### 1.4 Qual a média de negociação dentro de cada setor?
 Com esta análise é possivel observar em ordem quais setores estão sendo mais negociados no dia.
 
-![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/bd383213-b0b9-4ed1-908d-bd6c65d4c4f0)
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/8cf38742-e52e-4710-9a65-a5278480918d)
 
 ### 1.5 Qual a disposição dos dados nas colunas 'volume', 'close' e 'market_cap'?
 Após responder essa pergunta verifiquei que os dados desses campos contém valores muito espaçados e concentrados em faixas específicas.    
@@ -88,7 +88,7 @@ Para tratar essas questões estou estudando algumas formas de segmentar esses da
 - **Utilização de Percentis**    
 - **Transformação Logarítmica**    
     
-![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/4d106fd7-32ea-4824-8cf0-76faed941b6d)
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/bbfc8d83-18b0-4f85-88a3-a358b00f0986)
 
 ## 2.0 Questões específicas de ações
 Decidi me aprofundar mais no tipo de papel **Ação** pois como é possivel observar nas análises anteriores este é o tipo de papel mais negociado.
