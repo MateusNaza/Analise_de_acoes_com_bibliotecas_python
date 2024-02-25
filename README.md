@@ -75,7 +75,7 @@ Aqui é possivel verificar os 'outliers' de variação percentual para cada tipo
 
 Essa análise é interessante pois de forma rápida é possivel observar dentro de cada tipo de papel se tem alguma tendencia definida (Alta ou Baixa).
 
-![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/6403adb1-721c-4b25-a426-d1fea9e51c2d)
+![image](https://github.com/MateusNaza/Analise_de_acoes_com_bibliotecas_python/assets/127886025/973958dd-a367-41e8-85e0-b2ad97a2004f)
 
 ### 1.4 Qual a média de negociação dentro de cada setor?
 Com esta análise é possivel observar em ordem quais setores estão sendo mais negociados no dia.
