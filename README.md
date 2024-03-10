@@ -1,6 +1,14 @@
 # Analise de ações utilizando bibliotecas Python 📊
-Estou realizando uma análise de mercado com Ações, Fundos e BDR's da Bolsa de Valores Brasileira(B3). 
-O projeto ainda está em andamento, e conforme for progredindo irei atualizando esse repo.
+Esse projeto consiste em uma análise geral do mercado com Ações, Fundos e BDR's da Bolsa de Valores Brasileira(B3), respondi a 5 questões estratégicas a respeito dos dados. Meu foco nessa análise foi obter alguns insights gerais do mercado para aprofundar futuramente em análises mais específicas.
+
+Com esse projeto conheci um pouco mais de como é trabalhar com o Python para análise de dados, alguns dos conhecimentos que trabalhei nesse projeto:
+
+- Extração de dados via API
+- Limpeza e tratamento de dados
+- Utilização e manipulação de DataFrame com Pandas
+- Visualização com gráficos
+- Bibliotecas Seaborn e Matplotlib
+- Conhecimentos de Negócio relacionado ao Mercado de Ações
 
 ## Indice  
 - <a href="#Ferramentas">Ferramentas</a>  
